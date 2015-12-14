@@ -1,6 +1,6 @@
 DEPENDENCIES
   apt
-  elkstack
+  elkstack_fork
     path: .
     metadata: true
   java
@@ -25,15 +25,15 @@ GRAPH
   bluepill (2.4.1)
     rsyslog (~> 2.0)
   build-essential (2.2.4)
-  chef-sugar (3.1.1)
+  chef-sugar (3.2.0)
   chef_handler (1.2.0)
   compat_resource (12.5.14)
-  cron (1.7.0)
+  cron (1.7.1)
   curl (2.0.1)
   dmg (2.3.0)
   elasticsearch (0.3.14)
     ark (>= 0.2.4)
-  elkstack (6.0.4)
+  elkstack_fork (6.0.4)
     apt (>= 0.0.0)
     build-essential (>= 0.0.0)
     chef-sugar (>= 0.0.0)
@@ -104,7 +104,7 @@ GRAPH
   ohai (2.0.4)
   openssl (4.4.0)
     chef-sugar (>= 3.1.1)
-  packagecloud (0.1.0)
+  packagecloud (0.1.1)
   poise (2.4.0)
   python (1.4.6)
     build-essential (>= 0.0.0)
@@ -115,11 +115,11 @@ GRAPH
   rsyslog (2.2.0)
   runit (1.7.4)
     packagecloud (>= 0.0.0)
-  windows (1.38.3)
+  windows (1.38.4)
     chef_handler (>= 0.0.0)
   wrapper (0.1.1)
-    elkstack (>= 0.0.0)
+    elkstack_fork (>= 0.0.0)
     java (>= 0.0.0)
   yum (3.8.2)
-  yum-epel (0.6.4)
+  yum-epel (0.6.5)
     yum (~> 3.2)

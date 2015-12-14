@@ -1,5 +1,5 @@
 # Encoding: utf-8
-name             'elkstack'
+name             'elkstack_fork'
 maintainer       'Rackspace'
 maintainer_email 'rackspace-cookbooks@rackspace.com'
 license          'Apache 2.0'
